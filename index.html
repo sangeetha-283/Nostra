@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Style css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="discount-bar">
+        <span>Sign Up and <b>GET 20% OFF</b> for your first Order</span>
+        <i id="close-btn" style="cursor: pointer;" class="fa-solid fa-xmark"></i>
+    </div>
+    <!--Navigation bar-->
+    <div class="navbar">
+        <h1>Nostra</h1>
+        <div class="menu">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="#">New Arrival</a></p>
+            <p><a href="#">Most Wanted</a></p>
+            <p><a href="collections.html">Collections</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+        </div>
+        <div class="navbar-menu">
+            <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!--Side Navigation bar-->
+    <div id="sidebar" class="sidebar">
+        <p id="sidebar-close" style="text-align: right; cursor: pointer;">
+            <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+        </p>
+
+        <a href="index.html">Home</a>
+        <a href="#">New Arrival</a>
+        <a href="#">Most Wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!--Slider-->
+    <div class="container">
+        <div class="slider">
+            <div class="slider-left-button">
+                <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="slider-content">
+                <h1>Level up your style with our</h1>
+                <h4>Summer Collections</h4>
+                <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+
+            <div class="slider-image-container">
+                <img class="slider-image" src="./image/slider-one.jpg" width="100%" alt="image">
+                <img class="slider-image" src="./image/slider-one.jpg" alt="image">
+                <img class="slider-image" src="./image/slider-one.jpg" alt="image">
+            </div>
+
+            <div class="slider-right-button">
+
+                <i id="slider-right-activate" class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+            </div>
+        </div>
+
+        <!--Brands-->
+
+        <h2 style="margin: 20px;">Brands</h2>
+
+        <div class="brand">
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/puma.png" alt="puma">
+                <p>Puma</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/adidas.png" alt="adidas">
+                <p>Adidas</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/simple.png" alt="simple">
+                <p>Simple</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/leaves.png" alt="leaves">
+                <p>Leaves</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/behance.png" alt="behance">
+                <p>Behance</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/twitch.png" alt="twitch">
+                <p>Twitch</p>
+            </div>
+
+            <div class="brand-item">
+                <img class="brand-logo" src="./image/polo.png" alt="polo">
+                <p>Polo US</p>
+            </div>
+        </div>
+        <!--Service-->
+        <div class="services">
+            <div class="container-1">
+                <div>
+                    <h1>We Provide Best</h1>
+                    <h1>Customer Experiences</h1>
+                </div>
+
+                <div>
+                    <p>|| We ensure that our customer have the best shopping experience</p>
+                </div>
+            </div>
+
+            <div class="container-2">
+                <div class="container-2-item">
+                    <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-circle-check"></i>
+                    <h4>Original Products</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+                    </p>
+                </div>
+
+                <div class="container-2-item">
+                    <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-face-smile"></i>
+                    <h4>Satisfaction Guarantee</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+                    </p>
+                </div>
+
+                <div class="container-2-item">
+                    <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-broom"></i>
+                    <h4>New Arrival Everyday</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+                    </p>
+                </div>
+
+                <div class="container-2-item">
+                    <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-truck-fast"></i>
+                    <h4>Fast &amp; Free Shipping</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--New Arrivals-->
+        <div class="new-arrival-conatiner">
+            <h2 id="new-arrival-title">New Arrivals</h2>
+            <div class="new-arrival">
+                <div class="new-arrival-image">
+                    <img src="./image/Product/dress1.png" alt="">
+                    <div></div>
+                    <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+                <div class="new-arrival-image">
+                    <img src="./image/Product/dress2.png" alt="">
+                    <div></div>
+                    <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+                <div class="new-arrival-image">
+                    <img src="./image/Product/dress3.png" alt="">
+                    <div></div>
+                    <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+                <div class="new-arrival-image">
+                    <img src="./image/Product/dress4.png" alt="">
+                    <div></div>
+                    <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+            </div>
+        </div>
+        <!--Most Wanted-->
+        <div>
+            <h2 id="most-wanted" style=" margin-top: 5vw;">Most Wanted</h2>
+            <div class="most-wanted">
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Multi-color-cotton-shirt.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Beach-shirt.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Red-floral-shirt.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Blue-women-dress.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Green-floral-shirt.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Pink-women-dress.jpg" alt="">
+
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/green-cargo-pant.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+                <div class="most-wanted-container">
+                    <img style="width: 20vw;" src="./image/Product/Brown-cargo-pant.jpg" alt="">
+                    <p class="sale-overlay">sale</p>
+                    <i class="fa-regular fa-heart like-button"></i>
+                </div>
+            </div>
+        </div>
+        <!--Limited Offer Image-->
+        <div class="limited-offer-container">
+            <div class="limited-offer">
+                <div class="limited-offer-img">
+                    <img src="./image/offer.jpg" alt="">
+                </div>
+                <div class="limited-offer-text">
+                    <h1>Limited Offer</h1>
+                    <h4>35% OFF on this for the first 30 Customers</h4>
+                    <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+            </div>
+        </div>
+        <!--News Letter-->
+        <div class="news-letter">
+            <h1>Join our News Letter</h1>
+            <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more
+            </p>
+            <div style="margin-top: 10px;">
+                <input class="search">
+            </div>
+            <div>
+                <button class="submit"> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-item">
+                <h1>Nostra</h2>
+                    <p>The Standard chunk of Lorem ipsum
+                        used since the 1500s is reprodused
+                        below for those interest</p>
+                    <div class="footer-icon">
+                        <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </div>
+                    <p>@ 2025 Nostra.com</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Javascript-->
+    <script src="script.js"></script>
+
+</body>
+</html>
